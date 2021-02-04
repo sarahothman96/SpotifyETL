@@ -8,8 +8,8 @@ import datetime as dt
 import sqlite3
 
 DATABASE_LOCATION = "sqlite:///my_played_tracks.sqlite"
-USER_ID = "hm8mnf4611w3hhucwe9v0ylh9"
-TOKEN = "BQCBSJ-JZTl_xSl3Li044MtiZG1YWLkxwmSpCSbJptv7hdZs9M8PRtHkvZz_favk84kv9iPJSNu8AQTqIJsva4xajQ-XRs9iJ4knviWWNqsNdItiHvFZcJ4sWMANuawUMooaJqpMvJF2x4s-9cGYl-GYs21SzSpAwGcl"
+USER_ID = "Spotify UserID"
+TOKEN = "Spotify Auth Token"
 
 # Load
 def check_if_valid_data(df: pd.DataFrame) -> bool:
